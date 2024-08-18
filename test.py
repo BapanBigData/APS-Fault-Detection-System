@@ -16,7 +16,7 @@ if __name__ == '__main__':
         train_pipeline = TrainingPipeline()
         train_pipeline.run_pipeline()
     except Exception as e:
-        raise SensorException(e, sys)
+        raise SensorException(e, sys) from e
 
     # test_exception()
         
