@@ -1,7 +1,6 @@
 import sys
 from sensor.configuration.mongodb_connection import MongoDBClient
 from sensor.exception import SensorException
-#from sensor.logger import logging
 from sensor.pipeline.training_pipeline import TrainingPipeline
 
 # def test_exception():

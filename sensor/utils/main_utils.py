@@ -81,4 +81,4 @@ def load_object(file_path: str, ) -> object:
         
     except Exception as e:
         raise SensorException(e, sys) from e
-    
+
